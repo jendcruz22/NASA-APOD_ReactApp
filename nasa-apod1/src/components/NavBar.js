@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 export default function NavBar() {
     return (
-        <div>
+        <div className="navbar">
             <ul>
-                <Link to='/'>Take me to home page</Link>
+                <Link className="link" to='/'>Take me to home page</Link>
             </ul>
         </div>
     );

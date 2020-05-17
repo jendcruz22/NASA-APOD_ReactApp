@@ -12,7 +12,7 @@ export default function NasaPhoto() {
 
         async function fetchPhoto() {
             const res = await fetch (
-                'https://api.nasa.gov/planetary/apod?api_key=$(apiKey)'           
+                'https://api.nasa.gov/planetary/apod?api_key=BXsK1tCH74lQHF8glJz8QGCXoekPQyLGq4c5Nug7'           
             );
             const data = await res.json();
             setPhotoData(data);
@@ -25,7 +25,7 @@ export default function NasaPhoto() {
     return(
         <>
         <NavBar />
-        <div>
+        <div className="nasa-photo">
             {photoData.media_type === "image" ? (
             <img 
                 src={photoData.url} 
@@ -45,8 +45,8 @@ export default function NasaPhoto() {
             )}
             <div>
                 <h1>{photoData.title}</h1>
-                <p>{photoData.date}</p>
-        <p>{photoData.explanation}</p>
+                <p className="date">{photoData.date}</p>
+        <p className="explanation">{photoData.explanation}</p>
             </div>
         </div>
 
