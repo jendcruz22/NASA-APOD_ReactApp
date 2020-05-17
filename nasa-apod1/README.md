@@ -20,11 +20,11 @@ The information we will display is:
 * Information on the photo
 <br />
 
-> The [Home.js](https://github.com/jendcruz22/NASA-REACT/blob/master/nasa-apod1/src/components/Home.js) component as the name suggests, is our main home page.<br /><br />
+The [Home.js](https://github.com/jendcruz22/NASA-REACT/blob/master/nasa-apod1/src/components/Home.js) component as the name suggests, is our main home page.<br /><br />
 
-> I visited the [NASA API page](https://api.nasa.gov/), entered my details and signed up after which I recieved a private API key (which is unique for every user and thus not mentioned in the above code)<br />
-> The API key which is provided by NASA is then used in the [NasaPhoto.js](https://github.com/jendcruz22/NASA-REACT/blob/master/nasa-apod1/src/components/NasaPhoto.js) component through which we display NASA's APOD<br /><br />
+I visited the [NASA API page](https://api.nasa.gov/), entered my details and signed up after which I recieved a private API key (which is unique for every user and thus not mentioned in the above code)<br />
+The API key which is provided by NASA is then used in the [NasaPhoto.js](https://github.com/jendcruz22/NASA-REACT/blob/master/nasa-apod1/src/components/NasaPhoto.js) component through which we display NASA's APOD<br /><br />
 
-> [NavBar.js](https://github.com/jendcruz22/NASA-REACT/blob/master/nasa-apod1/src/components/NavBar.js) component helps us go from the NasaPhoto.js page to the Homepage.<br /><br />
+[NavBar.js](https://github.com/jendcruz22/NASA-REACT/blob/master/nasa-apod1/src/components/NavBar.js) component helps us go from the NasaPhoto.js page to the Homepage.<br /><br />
 
-> The styling of this application lies in [App.css](https://github.com/jendcruz22/NASA-REACT/blob/master/nasa-apod1/src/App.css)
+The styling of this application lies in [App.css](https://github.com/jendcruz22/NASA-REACT/blob/master/nasa-apod1/src/App.css)
