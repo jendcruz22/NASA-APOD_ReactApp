@@ -17,7 +17,7 @@ The information we will display is:
 * The photo
 * The photo's title
 * Current date
-* Information on the photo
+* Information about the photo
 <br />
 
 The [Home.js](https://github.com/jendcruz22/NASA-REACT/blob/master/nasa-apod1/src/components/Home.js) component as the name suggests, is our main home page.<br /><br />
