@@ -1,8 +1,6 @@
 # React + NASA Application:
 1. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) 
 2. It uses the NASA Open API: Astronomy Picture of the Day (APOD)
-
-**`Note:`**`While using this application and following the steps mentioned below, make sure you're in the [nasa-apod1]() directory`
 <br />
 ## React:
 ### Available Scripts
